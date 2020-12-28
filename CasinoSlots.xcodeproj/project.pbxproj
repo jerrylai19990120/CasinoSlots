@@ -13,10 +13,13 @@
 		927C091D259846D20081D52C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 927C091C259846D20081D52C /* Assets.xcassets */; };
 		927C0920259846D20081D52C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 927C091F259846D20081D52C /* Preview Assets.xcassets */; };
 		927C0923259846D20081D52C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 927C0921259846D20081D52C /* LaunchScreen.storyboard */; };
+		927C092B25994C670081D52C /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 927C092A25994C670081D52C /* CardView.swift */; };
+		927C092F2599771D0081D52C /* Welcome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 927C092E2599771D0081D52C /* Welcome.swift */; };
+		927C0931259978E00081D52C /* SlotsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 927C0930259978E00081D52C /* SlotsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		927C0913259846D10081D52C /* CasinoSlots.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CasinoSlots.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		927C0913259846D10081D52C /* Tiny Casino.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tiny Casino.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		927C0916259846D10081D52C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		927C0918259846D10081D52C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		927C091A259846D10081D52C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -24,6 +27,9 @@
 		927C091F259846D20081D52C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		927C0922259846D20081D52C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		927C0924259846D20081D52C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		927C092A25994C670081D52C /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		927C092E2599771D0081D52C /* Welcome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Welcome.swift; sourceTree = "<group>"; };
+		927C0930259978E00081D52C /* SlotsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlotsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +54,7 @@
 		927C0914259846D10081D52C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				927C0913259846D10081D52C /* CasinoSlots.app */,
+				927C0913259846D10081D52C /* Tiny Casino.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -58,11 +64,14 @@
 			children = (
 				927C0916259846D10081D52C /* AppDelegate.swift */,
 				927C0918259846D10081D52C /* SceneDelegate.swift */,
+				927C092E2599771D0081D52C /* Welcome.swift */,
 				927C091A259846D10081D52C /* ContentView.swift */,
 				927C091C259846D20081D52C /* Assets.xcassets */,
 				927C0921259846D20081D52C /* LaunchScreen.storyboard */,
 				927C0924259846D20081D52C /* Info.plist */,
 				927C091E259846D20081D52C /* Preview Content */,
+				927C092A25994C670081D52C /* CardView.swift */,
+				927C0930259978E00081D52C /* SlotsView.swift */,
 			);
 			path = CasinoSlots;
 			sourceTree = "<group>";
@@ -92,7 +101,7 @@
 			);
 			name = CasinoSlots;
 			productName = CasinoSlots;
-			productReference = 927C0913259846D10081D52C /* CasinoSlots.app */;
+			productReference = 927C0913259846D10081D52C /* Tiny Casino.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -147,7 +156,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				927C0917259846D10081D52C /* AppDelegate.swift in Sources */,
+				927C092F2599771D0081D52C /* Welcome.swift in Sources */,
+				927C0931259978E00081D52C /* SlotsView.swift in Sources */,
 				927C0919259846D10081D52C /* SceneDelegate.swift in Sources */,
+				927C092B25994C670081D52C /* CardView.swift in Sources */,
 				927C091B259846D10081D52C /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,6 +297,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.1.1;
 				DEVELOPMENT_ASSET_PATHS = "\"CasinoSlots/Preview Content\"";
 				DEVELOPMENT_TEAM = 8L83CZ8839;
 				ENABLE_PREVIEWS = YES;
@@ -293,8 +306,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "jerry-lai.CasinoSlots";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tiny.casino;
+				PRODUCT_NAME = "Tiny Casino";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -305,6 +318,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.1.1;
 				DEVELOPMENT_ASSET_PATHS = "\"CasinoSlots/Preview Content\"";
 				DEVELOPMENT_TEAM = 8L83CZ8839;
 				ENABLE_PREVIEWS = YES;
@@ -313,8 +327,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "jerry-lai.CasinoSlots";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tiny.casino;
+				PRODUCT_NAME = "Tiny Casino";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
